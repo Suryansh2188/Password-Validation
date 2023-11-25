@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>    
+    <div class="container">
+        <div class="card">
+            <div class="heading">
+        <h2>Sign up</h2>
+        <p>Join the community today.</p>
+    </div>
+
+        <form action="">
+            <input class="input" autofocus="" type="text" name="" id="email" placeholder="Username"  required />
+            <input class="input"  type="email" name="" id="email" placeholder="Email"  required />
+            <input class="input" type="password" name="" id="password" placeholder="Create Password" required
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" />
+            <img src="hide.png" alt="" id="image" width="20px" height="20px" />
+            <ul class="lists invalid" id="display">
+                <li id="length">At least 6 Characters</li>
+                <li id="UpperCase">A Uppercase Character</li>
+                <li id="lowercase">A Lowercase Character</li>
+                <li id="num" >A Number</li>
+                <li id="sc">Special Character(!@#$%^&*)</li>
+            </ul>
+            <button id="btn" type="submit">Create Account</button>
+            <div class="other">
+
+            </div>
+        </form>
+    </div>
+        </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

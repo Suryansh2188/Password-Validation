@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-family: 'Noto Serif', serif;
+}
+
+.container {
+    background-image: url('51.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.card {
+    height: 31rem;
+    width: 31rem;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-border-radius: 10p;
+}
+
+.heading {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-top: -35px;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    font-family: 'Noto Serif', serif;
+}
+
+p {
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.input {
+    background: transparent;
+    width: 15rem;
+    padding: 10px;
+    font-size: 1.4rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: none;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 1rem;
+}
+
+img {
+    position: relative;
+    bottom: 1.6rem;
+    left: 7rem;
+}
+
+button {
+    font-size: medium;
+    border: 2px hidden;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: rgba(7, 8, 7, 0.759);
+    color: black;
+    padding: 0.5rem 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+ul {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1rem;
+}
+
+.valid {
+    text-decoration: line-through;
+    color: #7A9D54;
+}
+
+.invalid {
+    text-decoration: none;
+    color: #001524;
+}
+
+.lists {
+    display: none;
+}
